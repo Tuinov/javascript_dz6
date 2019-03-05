@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  margin: 20px;    
+  width: 165px;
+  line-height: 51px;
+  background: url(img/logo.png) no-repeat;
+  font-size: 27px;
+  font-weight: 300;
+  padding-left: 60px;
+}
+
+
+
+
+.showcase{
+    height: 120px;
+    width: 620px;
+    background-color: #f8f3f4;
+    font-size: 20px;
+    padding: 20px 0 0 120px;
+    background: url(img/product1.jpg) no-repeat;
+    
+    
+}
+button{
+    
+    background-color: #f16d7f;
+    width: 213px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+    
+    
+}
+#buttonClear{
+    float: none;
+    margin-left: 140px;
+    width: 170px;
+    height: 60px;
+}
+#buttonTotal{
+    float: none;
+    margin-left: 60px;
+    width: 170px;
+    height: 60px;
+}
+
+#cart{
+    height: 70px;
+    width: 400px;
+    margin-left: 140px;
+    background-color: #f8f3f4;
+    text-align: center;
+    font-size: 20px;
+   
+}
+#grandTotal{
+    position: absolute;
+    left: 40px;
+    width: 700px;
+    height: 145px;
+     background-color: #f16d7f;
+    text-align: center;
+    font-size: 40px;
+    
+}
